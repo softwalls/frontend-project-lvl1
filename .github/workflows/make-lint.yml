@@ -4,6 +4,5 @@ on: push
 
 jobs:
   example-job:
-    runs-on: ubuntu-latest
     steps:
       - run: make lint
