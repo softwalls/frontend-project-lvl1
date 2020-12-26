@@ -3,4 +3,6 @@ name: make-lint
 on: push
 
 jobs:
-  run: make lint
+  example-job:
+    steps:
+      - run: make lint
