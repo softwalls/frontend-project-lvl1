@@ -1,8 +1,6 @@
 name: make-lint
 
 on: push
-  branches:
-      - '**'
 
 jobs:
   example-job:
