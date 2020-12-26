@@ -5,8 +5,9 @@ on: push
       - '**'
 
 jobs:
-  runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-  steps:
-    run: |
-      make lint
+    steps:
+      run: |
+        make lint
