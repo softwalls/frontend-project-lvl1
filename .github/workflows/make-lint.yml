@@ -8,7 +8,12 @@ jobs:
     steps:
       
       - uses: actions/checkout@v2
+<<<<<<< HEAD
 
       - name: make commands
       - uses: softwalls/frontend-project-lvl1
       - run: make lint
+=======
+      - uses: actions/setup-node@v1
+      - run: make lint
+>>>>>>> 049f38e938fe30112949fb9221ebfec67bb22489
