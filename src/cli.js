@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const sayHey = (question) => {
+function sayHey(question) {
   const username = readlineSync.question(`${question}`);
   return (username);
 }
