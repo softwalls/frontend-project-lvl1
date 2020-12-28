@@ -7,8 +7,7 @@ function isEven(list, username) {
     if (userAnswer === correctAnswer) {
       console.log('correct');
     } else {
-      return `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.
-      Let's try again, ${username}!`;
+      return `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${username}!`;
     }
   }
   return `Congratulations, ${username}!`;
