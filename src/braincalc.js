@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import { getRandomList } from './index.js';
 
 const brainCalc = (numberList, username) => {
   const operations = ['+', '-', '*'];

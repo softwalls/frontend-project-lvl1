@@ -1,5 +1,4 @@
-import askName from './cli.js'
-import isEven from './isEven.js';
+import askName from './cli.js';
 
 const nameQuestion = 'May I have your name? ';
 const helloword = 'Hello, ';
