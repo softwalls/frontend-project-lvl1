@@ -1,8 +1,9 @@
 import readlineSync from 'readline-sync';
 
-function sayHey(question) {
+
+function askName(question) {
   const username = readlineSync.question(`${question}`);
-  return (username);
+  return (`Hello, ${username}!`);
 }
 
-export default sayHey;
+export default askName;
