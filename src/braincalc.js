@@ -9,6 +9,7 @@ const brainCalc = (numberList, username) => {
     const operand2 = numberList[i + 1];
     const operator = operations[randomIndex];
     const answer = readlineSync.question(`*** Question: ${operand1} ${operator} ${operand2} `);
+    console.log(`Your answer: ${answer}`);
     const userAnswer = Number(answer);
     let correctAnswer;
     switch (randomIndex) {
@@ -22,7 +23,7 @@ const brainCalc = (numberList, username) => {
         correctAnswer = operand1 * operand2;
     }
     if (userAnswer === correctAnswer) {
-      console.log('correct');
+      console.log('Correct!');
     } else {
       return `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${username}!`;
     }
