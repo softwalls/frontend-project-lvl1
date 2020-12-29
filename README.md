@@ -5,4 +5,8 @@
 
 ![make-lint](https://github.com/softwalls/frontend-project-lvl1/workflows/make-lint/badge.svg)
 
+<h3>brain-even game</h3>
 <a href="https://asciinema.org/a/Ht4CcHxQ4wLiD3XlMX6nsp3vs" target="_blank"><img src="https://asciinema.org/a/Ht4CcHxQ4wLiD3XlMX6nsp3vs.svg" /></a>
+
+<h3>brain-calc game</h3>
+<a href="https://asciinema.org/a/BbVlD7Y4oFMuIJANaeYins84Z" target="_blank"><img src="https://asciinema.org/a/BbVlD7Y4oFMuIJANaeYins84Z.svg" /></a>
