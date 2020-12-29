@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { getRandomList, greetUser } from '../src/index.js';
-import brainCalc from '../src/braincalc.js';
+import brainCalc from '../src/games/braincalc.js';
 
 //   познакомимся, сгенерим
 const username = greetUser();

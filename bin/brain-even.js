@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { getRandomList, greetUser } from '../src/index.js';
-import isEven from '../src/isEven.js';
+import isEven from '../src/games/isEven.js';
 
 // сгенерим числа для раундов и запустим игру
 const username = greetUser();
