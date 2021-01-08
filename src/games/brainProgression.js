@@ -21,6 +21,7 @@ function brainProgression(roundAmount) {
     const questionNum = progressionArr[questionNumIndex];
     progressionArr[questionNumIndex] = '..';
     const answer = readlineSync.question(`*** Question: ${progressionArr.join(' ')} `);
+    console.log(`Your answer: ${answer}`);
     const userAnswer = Number(answer);
     const correctAnswer = questionNum;
     if (correctAnswer === userAnswer) {
