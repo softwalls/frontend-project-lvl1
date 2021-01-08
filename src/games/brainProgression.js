@@ -32,7 +32,7 @@ function brainProgression(roundAmount) {
     }
   }
 
-  console.log(`Congratulations, ${username}`);
+  console.log(`Congratulations, ${username}!`);
 }
 
 export default brainProgression;

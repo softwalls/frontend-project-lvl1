@@ -26,7 +26,7 @@ function brainPrime(roundAmount) {
       return;
     }
   }
-  console.log(`Congratulations, ${username}`);
+  console.log(`Congratulations, ${username}!`);
 }
 
 export default brainPrime;
